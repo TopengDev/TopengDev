@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+      <link rel="icon" href="assets/favicon.png" type="image/png" />
+
+      <script src="https://cdn.tailwindcss.com"></script>
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link rel="stylesheet" href="/styles/index.css" />
+
+      <title>Christopher - Fullstack Developer</title>
+   </head>
+   <body class="bg-[#11071F] px-8 sm:px-0">
+      <!-- NAVBAR -->
+      <nav
+         class="sticky top-0 left-0 block bg-[#1A0B2E] w-screen h-[80px] flex items-center justify-center absolute top-0 left-0 z-20"
+      >
+         <div class="w-full max-w-[1280px] flex items-center justify-end">
+            <div class="flex items-center gap-16">
+               <div>
+                  <a
+                     href="#hero-section"
+                     class="font-sans font-light text-white text-xs sm:text-sm lg:text-base 2xl:text-lg font-semibold"
+                     >HOME</a
+                  >
+               </div>
+               <div>
+                  <a
+                     href="#experience-section"
+                     class="font-sans font-light text-white text-xs sm:text-sm lg:text-base 2xl:text-lg font-semibold"
+                     >ABOUT</a
+                  >
+               </div>
+               <div>
+                  <a
+                     href="#projects-section"
+                     class="font-sans font-light text-white text-xs sm:text-sm lg:text-base 2xl:text-lg font-semibold"
+                     >PROJECTS</a
+                  >
+               </div>
+               <div>
+                  <a
+                     href="#contacts-section"
+                     class="font-sans font-light text-white text-xs sm:text-sm lg:text-base 2xl:text-lg font-semibold"
+                     >CONTACT</a
+                  >
+               </div>
+            </div>
+         </div>
+      </nav>
+      <!-- NAVBAR -->
+      <!-- HERO SECTION -->
+      <div
+         id="hero-section"
+         class="w-full min-h-screen sm:min-h-[90vh] lg:min-h-[85vh] 2xl:min-h-[80vh] flex justify-center py-64"
+      >
+         <div
+            class="w-full max-w-[480px] sm:max-w-[640px] lg:max-w-[768px] 2xl:max-w-[1024px] flex flex-col items-center justify-center gap-12"
+         >
+            <div
+               class="flex items-center w-full px-8 sm:px-12 lg:px-24 2xl:px-32"
+            >
+               <div
+                  class="relative h-[120px] w-[120px] sm:h-[240px] sm:w-[240px] lg:h-[280px] lg:w-[280px] 2xl:h-[320px] 2xl:w-[320px]"
+               >
+                  <div
+                     class="text-xs sm:text-base lg:text-lg 2xl:text-xl absolute -top-[25%] sm:-top-[8%] -right-[180%] sm:-right-[125%] lg:-right-[155%] 2xl:-right-[150%] -translate-x-1/2 -translate-y-1/2 z-0 text-white"
+                  >
+                     <h3>
+                        Hello! I Am
+                        <span class="text-[#7127BA]">Christopher Indrawan</span>
+                     </h3>
+                  </div>
+                  <img
+                     src="assets/arrow.png"
+                     alt=""
+                     class="hidden sm:inline-block absolute -top-1/24 -right-[80%] sm:-right-1/4 -translate-x-1/2 -translate-y-1/2 z-0 scale-45 sm:scale-60 lg:scale-85 2xl:scale-100"
+                  />
+                  <img
+                     src="assets/gradient-ellipse.png"
+                     alt=""
+                     class="absolute top-1/2 left-1/2 w-[200px] h-[120px] sm:w-[280px] sm:h-[200px] lg:w-[320px] lg:h-[240px] 2xl:w-[400px] 2xl:h-[320px] -translate-x-1/2 -translate-y-1/2 scale-150 z-0"
+                  />
+                  <img
+                     src="assets/person-laptop.png"
+                     alt=""
+                     class="absolute top-0 left-0 w-full h-full object-contain z-0"
+                  />
+               </div>
+
+               <div class="z-10">
+                  <p
+                     class="text-white text-xs sm:text-base lg:text-lg 2xl:text-xl"
+                  >
+                     A Designer who
+                  </p>
+                  <h1
+                     class="text-white text-3xl sm:text-4xl lg:text-5xl 2xl:text-6xl"
+                  >
+                     Judges a book by its
+                     <span
+                        class="text-[#7127BA] text-3xl sm:text-4xl lg:text-5xl 2xl:text-6xl relative"
+                     >
+                        cover
+                        <img
+                           src="assets/ellipse.png"
+                           alt=""
+                           class="absolute top-[1%] sm:top-[2%] lg:top-[10%] 2xl:top-1/5 -left-2 h-[48px] sm:h-[56px] lg:h-[60px] 2xl:h-[72px]"
+                        />
+                     </span>
+                     ...
+                  </h1>
+                  <div class="pt-4">
+                     <p
+                        class="text-[10px] sm:text-xs lg:text-base 2xl:text-lg text-white"
+                     >
+                        Because if the cover doesn't impress you what else can?
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="w-full">
+               <h2
+                  class="text-white text-2xl sm:text-3xl lg:text-4xl 2xl:text-5xl"
+               >
+                  I'm a Software Engineer. <span class="animate-pulse">|</span>
+               </h2>
+               <p
+                  class="text-white text-xs sm:text-base lg:text-lg 2xl:text-xl"
+               >
+                  Currently, I'm a Software Engineer at a finance specialized
+                  software house
+               </p>
+            </div>
+            <div class="w-full">
+               <p
+                  class="text-white text-xs sm:text-base lg:text-lg 2xl:text-xl max-w-[90%] sm:max-w-[85%] lg:max-w-[80%] 2xl:max-w-[75%]"
+               >
+                  A self-taught Software Engineer, functioning in the industry
+                  for 3+ years now. I make meaningful and delightful digital
+                  products that create an equilibrium between user needs and
+                  business goals.
+               </p>
+            </div>
+         </div>
+      </div>
+      <!-- HERO SECTION -->
+
+      <!-- EXPERIENCE SECTION -->
+      <div
+         id="experience-section"
+         class="w-full min-h-screen sm:min-h-[90vh] lg:min-h-[85vh] 2xl:min-h-[80vh] flex justify-center"
+      >
+         <div
+            class="relative w-full max-w-[480px] sm:max-w-[640px] lg:max-w-[768px] 2xl:max-w-[1024px] flex flex-col gap-8"
+         >
+            <img
+               src="assets/gradient-ellipse-2.png"
+               alt=""
+               class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 scale-150"
+            />
+
+            <h2
+               class="font-sans text-white text-2xl sm:text-3xl lg:text-4xl 2xl:text-5xl"
+            >
+               Work Experiences
+            </h2>
+
+            <div class="w-full flex items-center z-10">
+               <div
+                  class="backdrop-filter backdrop-blur-2xl bg-opacity-10 flex items-center justify-center gap-4 p-4 rounded-xl"
+               >
+                  <img src="assets/star-bookmark.png" alt="" />
+                  <div class="flex flex-col gap-2 items-start">
+                     <h3
+                        class="font-sans text-white text-xl sm:text-2xl lg:text-3xl 2xl:text-4xl"
+                     >
+                        Fullstack Engineer
+                     </h3>
+                     <p
+                        class="font-sans font-normal text-white text-xs sm:text-base lg:text-lg 2xl:text-xl max-w-[90%] sm:max-w-[85%] lg:max-w-[80%] 2xl:max-w-[75%]"
+                     >
+                        Built and deployed end-to-end web applications using a
+                        modern stack including React, Next.js, Node.js, and
+                        PostgreSQL. Handled both frontend and backend
+                        development — from designing UI components and managing
+                        state to building RESTful APIs, handling authentication,
+                        and working with databases. Prioritized maintainable
+                        architecture, performance, and scalability while
+                        collaborating in fast-paced, product-focused
+                        environments.
+                     </p>
+                     <!-- <button
+                        class="font-sans font-normal text-white text-sm sm:text-lg lg:text-xl 2xl:text-2xl max-w-[90%] sm:max-w-[85%] lg:max-w-[80%] 2xl:max-w-[75%] border-[#693B93] border-2 border-solid rounded-2xl py-2 px-6 bg-[#2C1250] hover:cursor-pointer hover:bg-black transition-all duration-150"
+                        type="button"
+                     >
+                        Learn more
+                     </button> -->
+                  </div>
+               </div>
+            </div>
+            <div class="w-full flex items-center z-10">
+               <div
+                  class="backdrop-filter backdrop-blur-2xl bg-opacity-10 flex items-center justify-center gap-4 p-4 rounded-xl"
+               >
+                  <img src="assets/ink-dropper.png" alt="" />
+                  <div class="flex flex-col gap-2 items-start">
+                     <h3
+                        class="font-sans text-white text-xl sm:text-2xl lg:text-3xl 2xl:text-4xl"
+                     >
+                        Frontend Developer
+                     </h3>
+                     <p
+                        class="font-sans font-normal text-white text-xs sm:text-base lg:text-lg 2xl:text-xl max-w-[90%] sm:max-w-[85%] lg:max-w-[80%] 2xl:max-w-[75%]"
+                     >
+                        Developed and maintained responsive user interfaces
+                        using. Collaborated closely with designers and backend
+                        teams to turn ideas into polished, interactive products.
+                        Focused on clean code, performance, and user experience
+                        — with attention to detail in accessibility,
+                        responsiveness, and design consistency.
+                     </p>
+                     <!-- <button
+                        class="font-sans font-normal text-white text-sm sm:text-lg lg:text-xl 2xl:text-2xl max-w-[90%] sm:max-w-[85%] lg:max-w-[80%] 2xl:max-w-[75%] border-[#693B93] border-2 border-solid rounded-2xl py-2 px-6 bg-[#2C1250] hover:cursor-pointer hover:bg-black transition-all duration-150"
+                        type="button"
+                     >
+                        Learn more
+                     </button> -->
+                  </div>
+               </div>
+            </div>
+
+            <div class="w-full flex items-center z-10">
+               <div
+                  class="backdrop-filter backdrop-blur-2xl bg-opacity-10 flex items-center justify-center gap-4 p-4 rounded-xl"
+               >
+                  <img src="assets/coffee-cup.png" alt="" />
+                  <div class="flex flex-col gap-2 items-start">
+                     <h3
+                        class="font-sans text-white text-xl sm:text-2xl lg:text-3xl 2xl:text-4xl"
+                     >
+                        Graphic Designer
+                     </h3>
+                     <p
+                        class="font-sans font-normal text-white text-xs sm:text-base lg:text-lg 2xl:text-xl max-w-[90%] sm:max-w-[85%] lg:max-w-[80%] 2xl:max-w-[75%]"
+                     >
+                        I worked on a variety of design projects—from icons and
+                        brochures to banners and product visuals. I also helped
+                        with content writing for guidebooks, which gave me a
+                        strong foundation in visual storytelling and attention
+                        to detail.
+                     </p>
+                     <!-- <button
+                        class="font-sans font-normal text-white text-sm sm:text-lg lg:text-xl 2xl:text-2xl max-w-[90%] sm:max-w-[85%] lg:max-w-[80%] 2xl:max-w-[75%] border-[#693B93] border-2 border-solid rounded-2xl py-2 px-6 bg-[#2C1250] hover:cursor-pointer hover:bg-black transition-all duration-150"
+                        type="button"
+                     >
+                        Learn more
+                     </button> -->
+                  </div>
+               </div>
+            </div>
+            <div class="w-full flex items-center z-10">
+               <div
+                  class="backdrop-filter backdrop-blur-2xl bg-opacity-10 flex items-center justify-center gap-4 p-4 rounded-xl"
+               >
+                  <img src="assets/light-bulb.png" alt="" />
+                  <div class="flex flex-col gap-2 items-start">
+                     <h3
+                        class="font-sans text-white text-xl sm:text-2xl lg:text-3xl 2xl:text-4xl"
+                     >
+                        Online Developer Community Co-Leader
+                     </h3>
+                     <p
+                        class="font-sans font-normal text-white text-xs sm:text-base lg:text-lg 2xl:text-xl max-w-[90%] sm:max-w-[85%] lg:max-w-[80%] 2xl:max-w-[75%]"
+                     >
+                        I helped lead an online developer community where we
+                        collaborated on open-source projects. I managed the
+                        repo, assigned tasks, ran check-ins, and contributed to
+                        both frontend and backend development.
+                     </p>
+                     <!-- <button
+                        class="font-sans font-normal text-white text-sm sm:text-lg lg:text-xl 2xl:text-2xl max-w-[90%] sm:max-w-[85%] lg:max-w-[80%] 2xl:max-w-[75%] border-[#693B93] border-2 border-solid rounded-2xl py-2 px-6 bg-[#2C1250] hover:cursor-pointer hover:bg-black transition-all duration-150"
+                        type="button"
+                     >
+                        Learn more
+                     </button> -->
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- EXPERIENCE SECTION -->
+
+      <!-- HEADLINE SECTION -->
+      <div
+         id="headline-section"
+         class="w-full min-h-screen sm:min-h-[90vh] lg:min-h-[85vh] 2xl:min-h-[80vh] flex justify-center"
+      >
+         <div
+            class="relative w-full max-w-[480px] sm:max-w-[640px] lg:max-w-[768px] 2xl:max-w-[1024px] flex flex-col items-center justify-center gap-4"
+         >
+            <h3 class="text-white text-xl sm:text-2xl lg:text-3xl 2xl:text-4xl">
+               I'm currently looking to join a
+               <span
+                  class="text-[#7127BA] text-xl sm:text-2xl lg:text-3xl 2xl:text-4xl relative"
+               >
+                  cross-functional
+               </span>
+               team
+            </h3>
+            <h4 class="text-white text-lg sm:text-xl lg:text-2xl 2xl:text-3xl">
+               that values improving people's lives through accessible design
+            </h4>
+         </div>
+      </div>
+      <!-- HEADLINE SECTION -->
+
+      <!-- RIGHT ALIGNED PROJECT SECTION -->
+      <div
+         id="projects-section"
+         class="w-full min-h-[50vh] sm:min-h-[80vh] lg:min-h-[75vh] 2xl:min-h-[70vh] flex justify-center my-12"
+      >
+         <div
+            class="relative h-80 w-full max-w-[480px] sm:max-w-[640px] lg:max-w-[768px] 2xl:max-w-[1024px] flex flex-col gap-40"
+         >
+            <div class="w-full flex items-center">
+               <div class="flex flex-col gap-4 z-10">
+                  <div class="flex flex-col gap-1">
+                     <p
+                        class="font-sans font-semibold text-[#7127BA] text-xs sm:text-base lg:text-lg 2xl:text-xl relative"
+                     >
+                        Cryptocurrency Social Media Platform & Realtime
+                        Messaging
+                     </p>
+                     <h2
+                        class="font-sans text-[#CCD6F6] text-xl sm:text-2xl lg:text-3xl 2xl:text-4xl"
+                     >
+                        KNNEK
+                     </h2>
+                  </div>
+                  <div
+                     class="bg-gray-600 rounded-xl bg-clip-padding backdrop-filter backdrop-blur-2xl bg-opacity-40 w-[60%] p-4 lg:p-8"
+                  >
+                     <p
+                        class="font-sans font-normal text-justify text-[#CCD6F6] text-xs sm:text-base lg:text-lg 2xl:text-xl"
+                     >
+                        A space to share, learn, and grow together. We provide a
+                        discussion platform for beginners interested in entering
+                        the world of crypto. You can also share insights,
+                        explore current trends, or simply exchange ideas with
+                        other members who share similar interests. Through our
+                        forum, you’ll connect with individuals from diverse
+                        backgrounds who are ready to support and inspire your
+                        journey in the vast world of crypto. This community is
+                        designed to be an inclusive, welcoming, and
+                        collaborative environment.
+                     </p>
+                  </div>
+                  <span>
+                     <a
+                        class="font-sans font-normal text-white text-sm sm:text-lg lg:text-xl 2xl:text-2xl max-w-[90%] sm:max-w-[85%] lg:max-w-[80%] 2xl:max-w-[75%] border-[#693B93] border-2 border-solid rounded-2xl py-2 px-6 bg-[#2C1250] hover:cursor-pointer hover:bg-black transition-all duration-150"
+                        type="button"
+                        href="https://knnek.com"
+                     >
+                        Visit
+                     </a>
+                  </span>
+               </div>
+               <div class="absolute bottom-0 right-0 h-full w-[60%] z-[5]">
+                  <div
+                     class="hidden sm:block absolute top-0 -left-20 -translate-y-[70%] z-0 w-[150%] h-[100%] z-0"
+                  >
+                     <img
+                        src="assets/gradient-ellipse-2.png"
+                        alt=""
+                        class="w-full"
+                     />
+                  </div>
+                  <div
+                     class="relative rounded-xl overflow-hidden pt-8 pl-8 bg-[#2B0B3A] z-[2]"
+                  >
+                     <div class="rounded-xl overflow-hidden">
+                        <img src="assets/projects/knnek/thumbnail.png" alt="" />
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- RIGHT ALIGNED PROJECT SECTION -->
+      <!-- LEFT ALIGNED PROJECT SECTION -->
+      <div
+         class="w-full min-h-[50vh] sm:min-h-[80vh] lg:min-h-[75vh] 2xl:min-h-[70vh] flex justify-center my-12"
+      >
+         <div
+            class="relative h-80 w-full max-w-[480px] sm:max-w-[640px] lg:max-w-[768px] 2xl:max-w-[1024px] flex flex-col gap-40"
+         >
+            <div class="w-full flex items-center text-end">
+               <div class="absolute bottom-0 left-0 h-full w-[60%] z-[5]">
+                  <div
+                     class="hidden sm:block absolute top-0 -left-20 -translate-y-[70%] z-0 w-[150%] h-[100%] z-0"
+                  >
+                     <img
+                        src="assets/gradient-ellipse-2.png"
+                        alt=""
+                        class="w-full"
+                     />
+                  </div>
+                  <div
+                     class="relative rounded-xl overflow-hidden pt-8 pr-8 bg-[#2B0B3A] z-[2]"
+                  >
+                     <div class="rounded-xl overflow-hidden">
+                        <img src="assets/projects/ioh/thumbnail.png" alt="" />
+                     </div>
+                  </div>
+               </div>
+               <div class="flex flex-col gap-4 z-10 items-end">
+                  <div class="flex flex-col gap-1">
+                     <p
+                        class="font-sans font-semibold text-[#7127BA] text-xs sm:text-base lg:text-lg 2xl:text-xl relative"
+                     >
+                        A Digital Partnerships Web Portal
+                     </p>
+                     <h2
+                        class="font-sans text-[#CCD6F6] text-xl sm:text-2xl lg:text-3xl 2xl:text-4xl"
+                     >
+                        Digitalpartnership
+                     </h2>
+                  </div>
+                  <div
+                     class="bg-gray-600 rounded-xl bg-clip-padding backdrop-filter backdrop-blur-2xl bg-opacity-40 w-[60%] p-4 lg:p-8"
+                  >
+                     <p
+                        class="font-sans font-normal text-justify text-[#CCD6F6] text-xs sm:text-base lg:text-lg 2xl:text-xl"
+                     >
+                        Indosat Digital Partnerships Portal is a platform
+                        designed to accelerate digital partnerships by
+                        connecting businesses, developers, and individuals with
+                        Indosat’s 100M+ user base, robust digital
+                        infrastructure, and telecom services. As part of Indosat
+                        Ooredoo Hutchison’s commitment to empowering Indonesia’s
+                        digital economy, the portal offers API integration,
+                        co-marketing opportunities, digital advertising tools,
+                        and strategic partnerships — all through a unified,
+                        accessible interface that supports collaboration and
+                        innovation across industries.
+                     </p>
+                  </div>
+                  <span>
+                     <a
+                        class="font-sans font-normal text-white text-sm sm:text-lg lg:text-xl 2xl:text-2xl max-w-[90%] sm:max-w-[85%] lg:max-w-[80%] 2xl:max-w-[75%] border-[#693B93] border-2 border-solid rounded-2xl py-2 px-6 bg-[#2C1250] hover:cursor-pointer hover:bg-black transition-all duration-150"
+                        type="button"
+                        href="https://ioh.co.id/portal/id/ioh-digitalpartnershipsportal"
+                     >
+                        Visit
+                     </a>
+                  </span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- LEFT ALIGNED PROJECT SECTION -->
+      <!-- RIGHT ALIGNED PROJECT SECTION -->
+      <div
+         class="w-full min-h-[50vh] sm:min-h-[80vh] lg:min-h-[75vh] 2xl:min-h-[70vh] flex justify-center my-12"
+      >
+         <div
+            class="relative h-80 w-full max-w-[480px] sm:max-w-[640px] lg:max-w-[768px] 2xl:max-w-[1024px] flex flex-col gap-40"
+         >
+            <div class="w-full flex items-center">
+               <div class="flex flex-col gap-4 z-10">
+                  <div class="flex flex-col gap-1">
+                     <p
+                        class="font-sans font-semibold text-[#7127BA] text-xs sm:text-base lg:text-lg 2xl:text-xl relative"
+                     >
+                        Online Developer Community
+                     </p>
+                     <h2
+                        class="font-sans text-[#CCD6F6] text-xl sm:text-2xl lg:text-3xl 2xl:text-4xl"
+                     >
+                        Mafia Code Community
+                     </h2>
+                  </div>
+                  <div
+                     class="bg-gray-600 rounded-xl bg-clip-padding backdrop-filter backdrop-blur-2xl bg-opacity-40 w-[60%] p-4 lg:p-8"
+                  >
+                     <p
+                        class="font-sans font-normal text-justify text-[#CCD6F6] text-xs sm:text-base lg:text-lg 2xl:text-xl"
+                     >
+                        A community dedicated to creating SaaS (Software as a
+                        Service) startup applications with a focus on the
+                        Generator, Fintech, Admin, and Entertainment niches, as
+                        well as project types ranging from our own initiatives
+                        to freelance and experimental lab projects.
+                     </p>
+                  </div>
+                  <span>
+                     <a
+                        class="font-sans font-normal text-white text-sm sm:text-lg lg:text-xl 2xl:text-2xl max-w-[90%] sm:max-w-[85%] lg:max-w-[80%] 2xl:max-w-[75%] border-[#693B93] border-2 border-solid rounded-2xl py-2 px-6 bg-[#2C1250] hover:cursor-pointer hover:bg-black transition-all duration-150"
+                        type="button"
+                        href="https://mafiacode.vercel.app/"
+                     >
+                        Visit
+                     </a>
+                  </span>
+               </div>
+               <div class="absolute bottom-0 right-0 h-full w-[60%] z-[5]">
+                  <div
+                     class="hidden sm:block absolute top-0 -left-20 -translate-y-[70%] z-0 w-[150%] h-[100%] z-0"
+                  >
+                     <img
+                        src="assets/gradient-ellipse-2.png"
+                        alt=""
+                        class="w-full"
+                     />
+                  </div>
+                  <div
+                     class="relative rounded-xl overflow-hidden pt-8 pl-8 bg-[#2B0B3A] z-[2]"
+                  >
+                     <div class="rounded-xl overflow-hidden">
+                        <img
+                           src="assets/projects/mafia-code/thumbnail.png"
+                           alt=""
+                        />
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- RIGHT ALIGNED PROJECT SECTION -->
+      <!-- LEFT ALIGNED PROJECT SECTION -->
+      <div
+         class="w-full min-h-[50vh] sm:min-h-[80vh] lg:min-h-[75vh] 2xl:min-h-[70vh] flex justify-center my-12"
+      >
+         <div
+            class="relative h-80 w-full max-w-[480px] sm:max-w-[640px] lg:max-w-[768px] 2xl:max-w-[1024px] flex flex-col gap-40"
+         >
+            <div class="w-full flex items-center text-end">
+               <div class="absolute bottom-0 left-0 h-full w-[60%] z-[5]">
+                  <div
+                     class="hidden sm:block absolute top-0 -left-20 -translate-y-[70%] z-0 w-[150%] h-[100%] z-0"
+                  >
+                     <img
+                        src="assets/gradient-ellipse-2.png"
+                        alt=""
+                        class="w-full"
+                     />
+                  </div>
+                  <div
+                     class="relative rounded-xl overflow-hidden pt-8 pr-8 bg-[#2B0B3A] z-[2]"
+                  >
+                     <div class="rounded-xl overflow-hidden">
+                        <img
+                           src="assets/projects/e-commerce/thumbnail.png"
+                           alt=""
+                        />
+                     </div>
+                  </div>
+               </div>
+               <div class="flex flex-col gap-4 z-10 items-end">
+                  <div class="flex flex-col gap-1">
+                     <p
+                        class="font-sans font-semibold text-[#7127BA] text-xs sm:text-base lg:text-lg 2xl:text-xl relative"
+                     >
+                        Online Fashion Digital Commerce Platform
+                     </p>
+                     <h2
+                        class="font-sans text-[#CCD6F6] text-xl sm:text-2xl lg:text-3xl 2xl:text-4xl"
+                     >
+                        E-Commerce
+                     </h2>
+                  </div>
+                  <div
+                     class="bg-gray-600 rounded-xl bg-clip-padding backdrop-filter backdrop-blur-2xl bg-opacity-40 w-[60%] p-4 lg:p-8"
+                  >
+                     <p
+                        class="font-sans font-normal text-justify text-[#CCD6F6] text-xs sm:text-base lg:text-lg 2xl:text-xl"
+                     >
+                        Online clean & robust digital fashion e-commerce web app
+                        suitable for fashion brands that are expanding their
+                        customer base to the digital world
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- LEFT ALIGNED PROJECT SECTION -->
+      <!-- RIGHT ALIGNED PROJECT SECTION -->
+      <div
+         class="w-full min-h-[50vh] sm:min-h-[80vh] lg:min-h-[75vh] 2xl:min-h-[70vh] flex justify-center my-12"
+      >
+         <div
+            class="relative h-80 w-full max-w-[480px] sm:max-w-[640px] lg:max-w-[768px] 2xl:max-w-[1024px] flex flex-col gap-40"
+         >
+            <div class="w-full flex items-center">
+               <div class="flex flex-col gap-4 z-10">
+                  <div class="flex flex-col gap-1">
+                     <p
+                        class="font-sans font-semibold text-[#7127BA] text-xs sm:text-base lg:text-lg 2xl:text-xl relative"
+                     >
+                        University Academic System
+                     </p>
+                     <h2
+                        class="font-sans text-[#CCD6F6] text-xl sm:text-2xl lg:text-3xl 2xl:text-4xl"
+                     >
+                        Siakad Akper Bina Insan
+                     </h2>
+                  </div>
+                  <div
+                     class="bg-gray-600 rounded-xl bg-clip-padding backdrop-filter backdrop-blur-2xl bg-opacity-40 w-[60%] p-4 lg:p-8"
+                  >
+                     <p
+                        class="font-sans font-normal text-justify text-[#CCD6F6] text-xs sm:text-base lg:text-lg 2xl:text-xl"
+                     >
+                        a web-based academic information system developed for
+                        Akademi Keperawatan Bina Insan Jakarta. The platform
+                        supports administrative and academic processes such as
+                        student data management, grading, and academic
+                        reporting. Designed to streamline internal workflows and
+                        improve accessibility for staff and students, the system
+                        was built with modern frontend technologies to deliver a
+                        responsive and user-friendly interface.
+                     </p>
+                  </div>
+               </div>
+               <div class="absolute bottom-0 right-0 h-full w-[60%] z-[5]">
+                  <div
+                     class="hidden sm:block absolute top-0 -left-20 -translate-y-[70%] z-0 w-[150%] h-[100%] z-0"
+                  >
+                     <img
+                        src="assets/gradient-ellipse-2.png"
+                        alt=""
+                        class="w-full"
+                     />
+                  </div>
+                  <div
+                     class="relative rounded-xl overflow-hidden pt-8 pl-8 bg-[#2B0B3A] z-[2]"
+                  >
+                     <div class="rounded-xl overflow-hidden">
+                        <img
+                           src="assets/projects/akper-bina-insan/thumbnail.png"
+                           alt=""
+                        />
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- RIGHT ALIGNED PROJECT SECTION -->
+
+      <!-- CONTACTS SECTION -->
+      <div
+         id="contacts-section"
+         class="w-full min-h-screen sm:min-h-[90vh] lg:min-h-[85vh] 2xl:min-h-[80vh] flex justify-center"
+      >
+         <div
+            class="relative w-full max-w-[480px] sm:max-w-[640px] lg:max-w-[768px] 2xl:max-w-[1024px] flex flex-col items-center justify-center gap-4"
+         >
+            <div class="flex flex-col gap-12">
+               <h2
+                  class="text-white text-xl sm:text-2xl lg:text-3xl 2xl:text-4xl"
+               >
+                  Contact Me
+               </h2>
+               <p
+                  class="text-justify text-white text-xs sm:text-base lg:text-lg 2xl:text-xl"
+               >
+                  I'm currently looking to join a cross-functional team that
+                  values improving people's lives through accessible design. or
+                  have a project in mind? Let's connect.
+               </p>
+               <div>
+                  <p
+                     class="text-justify text-white text-xs sm:text-base lg:text-lg 2xl:text-xl"
+                  >
+                     topengdev@gmail.com
+                  </p>
+                  <p
+                     class="text-justify text-white text-xs sm:text-base lg:text-lg 2xl:text-xl"
+                  >
+                     +62 877 6152 9589
+                  </p>
+               </div>
+               <div class="flex items-center gap-2">
+                  <a
+                     class="w-8 h-8"
+                     href="https://www.linkedin.com/in/christopher-indrawan-dev"
+                  >
+                     <img src="assets/icons/linkedin.png" alt="" />
+                  </a>
+                  <a class="w-8 h-8" href="https://github.com/TopengDev">
+                     <img src="assets/icons/github.png" alt="" />
+                  </a>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- CONTACTS SECTION -->
+   </body>
+</html>
