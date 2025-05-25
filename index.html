@@ -16,9 +16,11 @@
    <body class="bg-[#11071F] px-8 sm:px-0">
       <!-- NAVBAR -->
       <nav
-         class="sticky top-0 left-0 block bg-[#1A0B2E] w-screen h-[80px] flex items-center justify-center absolute top-0 left-0 z-20"
+         class="invisible sm:visible sticky top-0 left-0 block bg-[#1A0B2E] w-screen sm:h-[64px] lg:h-[72px] 2xl:h-[80px] flex items-center justify-center absolute top-0 left-0 z-20"
       >
-         <div class="w-full max-w-[1280px] flex items-center justify-end">
+         <div
+            class="w-full sm:max-w-[640px] lg:max-w-[768px] 2xl:max-w-[1024px] flex items-center justify-end"
+         >
             <div class="flex items-center gap-16">
                <div>
                   <a
@@ -171,12 +173,14 @@
 
             <div class="w-full flex items-center z-10">
                <div
-                  class="backdrop-filter backdrop-blur-2xl bg-opacity-10 flex items-center justify-center gap-4 p-4 rounded-xl"
+                  class="backdrop-filter backdrop-blur-2xl bg-opacity-60 flex flex-col sm:flex-row items-center justify-center gap-4 p-4 rounded-xl"
                >
                   <img src="assets/star-bookmark.png" alt="" />
-                  <div class="flex flex-col gap-2 items-start">
+                  <div
+                     class="flex flex-col gap-2 items-start text-justify sm:text-left"
+                  >
                      <h3
-                        class="font-sans text-white text-xl sm:text-2xl lg:text-3xl 2xl:text-4xl"
+                        class="font-sans text-white text-xl sm:text-2xl lg:text-3xl 2xl:text-4xl text-left"
                      >
                         Fullstack Engineer
                      </h3>
@@ -204,12 +208,14 @@
             </div>
             <div class="w-full flex items-center z-10">
                <div
-                  class="backdrop-filter backdrop-blur-2xl bg-opacity-10 flex items-center justify-center gap-4 p-4 rounded-xl"
+                  class="backdrop-filter backdrop-blur-2xl bg-opacity-60 flex flex-col sm:flex-row items-center justify-center gap-4 p-4 rounded-xl"
                >
                   <img src="assets/ink-dropper.png" alt="" />
-                  <div class="flex flex-col gap-2 items-start">
+                  <div
+                     class="flex flex-col gap-2 items-start text-justify sm:text-left"
+                  >
                      <h3
-                        class="font-sans text-white text-xl sm:text-2xl lg:text-3xl 2xl:text-4xl"
+                        class="font-sans text-white text-xl sm:text-2xl lg:text-3xl 2xl:text-4xl text-left"
                      >
                         Frontend Developer
                      </h3>
@@ -235,12 +241,14 @@
 
             <div class="w-full flex items-center z-10">
                <div
-                  class="backdrop-filter backdrop-blur-2xl bg-opacity-10 flex items-center justify-center gap-4 p-4 rounded-xl"
+                  class="backdrop-filter backdrop-blur-2xl bg-opacity-60 flex flex-col sm:flex-row items-center justify-center gap-4 p-4 rounded-xl"
                >
                   <img src="assets/coffee-cup.png" alt="" />
-                  <div class="flex flex-col gap-2 items-start">
+                  <div
+                     class="flex flex-col gap-2 items-start text-justify sm:text-left"
+                  >
                      <h3
-                        class="font-sans text-white text-xl sm:text-2xl lg:text-3xl 2xl:text-4xl"
+                        class="font-sans text-white text-xl sm:text-2xl lg:text-3xl 2xl:text-4xl text-left"
                      >
                         Graphic Designer
                      </h3>
@@ -264,12 +272,14 @@
             </div>
             <div class="w-full flex items-center z-10">
                <div
-                  class="backdrop-filter backdrop-blur-2xl bg-opacity-10 flex items-center justify-center gap-4 p-4 rounded-xl"
+                  class="backdrop-filter backdrop-blur-2xl bg-opacity-60 flex flex-col sm:flex-row items-center justify-center gap-4 p-4 rounded-xl"
                >
                   <img src="assets/light-bulb.png" alt="" />
-                  <div class="flex flex-col gap-2 items-start">
+                  <div
+                     class="flex flex-col gap-2 items-start text-justify sm:text-left"
+                  >
                      <h3
-                        class="font-sans text-white text-xl sm:text-2xl lg:text-3xl 2xl:text-4xl"
+                        class="font-sans text-white text-xl sm:text-2xl lg:text-3xl 2xl:text-4xl text-left"
                      >
                         Online Developer Community Co-Leader
                      </h3>
@@ -321,7 +331,7 @@
       <!-- RIGHT ALIGNED PROJECT SECTION -->
       <div
          id="projects-section"
-         class="w-full min-h-[50vh] sm:min-h-[80vh] lg:min-h-[75vh] 2xl:min-h-[70vh] flex justify-center my-12"
+         class="w-full min-h-[50vh] sm:min-h-[80vh] lg:min-h-[75vh] 2xl:min-h-[70vh] flex justify-center my-32 sm:my-24"
       >
          <div
             class="relative h-80 w-full max-w-[480px] sm:max-w-[640px] lg:max-w-[768px] 2xl:max-w-[1024px] flex flex-col gap-40"
@@ -393,7 +403,7 @@
       <!-- RIGHT ALIGNED PROJECT SECTION -->
       <!-- LEFT ALIGNED PROJECT SECTION -->
       <div
-         class="w-full min-h-[50vh] sm:min-h-[80vh] lg:min-h-[75vh] 2xl:min-h-[70vh] flex justify-center my-12"
+         class="w-full min-h-[50vh] sm:min-h-[80vh] lg:min-h-[75vh] 2xl:min-h-[70vh] flex justify-center my-32 sm:my-24"
       >
          <div
             class="relative h-80 w-full max-w-[480px] sm:max-w-[640px] lg:max-w-[768px] 2xl:max-w-[1024px] flex flex-col gap-40"
@@ -465,7 +475,7 @@
       <!-- LEFT ALIGNED PROJECT SECTION -->
       <!-- RIGHT ALIGNED PROJECT SECTION -->
       <div
-         class="w-full min-h-[50vh] sm:min-h-[80vh] lg:min-h-[75vh] 2xl:min-h-[70vh] flex justify-center my-12"
+         class="w-full min-h-[50vh] sm:min-h-[80vh] lg:min-h-[75vh] 2xl:min-h-[70vh] flex justify-center my-32 sm:my-24"
       >
          <div
             class="relative h-80 w-full max-w-[480px] sm:max-w-[640px] lg:max-w-[768px] 2xl:max-w-[1024px] flex flex-col gap-40"
@@ -534,7 +544,7 @@
       <!-- RIGHT ALIGNED PROJECT SECTION -->
       <!-- LEFT ALIGNED PROJECT SECTION -->
       <div
-         class="w-full min-h-[50vh] sm:min-h-[80vh] lg:min-h-[75vh] 2xl:min-h-[70vh] flex justify-center my-12"
+         class="w-full min-h-[50vh] sm:min-h-[80vh] lg:min-h-[75vh] 2xl:min-h-[70vh] flex justify-center my-32 sm:my-24"
       >
          <div
             class="relative h-80 w-full max-w-[480px] sm:max-w-[640px] lg:max-w-[768px] 2xl:max-w-[1024px] flex flex-col gap-40"
@@ -592,7 +602,7 @@
       <!-- LEFT ALIGNED PROJECT SECTION -->
       <!-- RIGHT ALIGNED PROJECT SECTION -->
       <div
-         class="w-full min-h-[50vh] sm:min-h-[80vh] lg:min-h-[75vh] 2xl:min-h-[70vh] flex justify-center my-12"
+         class="w-full min-h-[50vh] sm:min-h-[80vh] lg:min-h-[75vh] 2xl:min-h-[70vh] flex justify-center my-32 sm:my-24"
       >
          <div
             class="relative h-80 w-full max-w-[480px] sm:max-w-[640px] lg:max-w-[768px] 2xl:max-w-[1024px] flex flex-col gap-40"
