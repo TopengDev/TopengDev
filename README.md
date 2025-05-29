@@ -16,11 +16,12 @@ I have a background in design, and that helps me focus on the user experience as
 ---
 
 ### 📌 Featured Projects
-- **KNNEK** – A crypto community platform with real-time chat  
-- **Digitalpartnership** – Indosat's official digital partnerships portal  
+- **KNNEK** – A crypto community platform with real-time chat - https://knnek.com/
+- **Digitalpartnership** – Indosat's official digital partnerships portal - https://ioh.co.id/portal/id/ioh-digitalpartnershipsportal
 - **Siakad** – Academic system for Bina Insan Nursing Academy  
 - **E-Commerce** – Fashion-forward shopping platform  
-- **Mafia Code** – Open developer community for SaaS exploration
+- **Mafia Code** – Open developer community for SaaS exploration - https://mafiacode.vercel.app/
+- **IFINAPP** – Fundamental financial learning mobile app - https://play.google.com/store/apps/details?id=com.untartechno.ifinapp&hl=en&pli=1
 
 ---
 
