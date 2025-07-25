@@ -16,6 +16,7 @@ I have a background in design, and that helps me focus on the user experience as
 ---
 
 ### 📌 Featured Projects
+- **AI Resume Analyzer** - An AI-powered resume analyzer used to analyze resume compatibility with the targeted company - https://resumind.topengdev.com 
 - **KNNEK** – A crypto community platform with real-time chat - https://knnek.com/
 - **Digitalpartnership** – Indosat's official digital partnerships portal - https://ioh.co.id/portal/id/ioh-digitalpartnershipsportal
 - **Siakad** – Academic system for Bina Insan Nursing Academy  
