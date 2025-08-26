@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Christopher Indrawan
+# 👋 Hi, I'm Christopher
 
 **`Fullstack Developer | UI Designer | Builder`**
 
@@ -9,9 +9,10 @@ I have a background in design, and that helps me focus on the user experience as
 ---
 
 ### 🛠️ Tech I Work With
-- **Frontend:** React, Next.js, TailwindCSS, TypeScript, Redux, Zustand, React Query
-- **Backend:** Node.js, Express, NestJS, Prisma, PostgreSQL, MongoDB
-- **Tools:** Docker, Git, Electron, React Native, Figma, Photoshop
+- **Frontend:** React, React Native, Electron, Flutter, Next.js, TailwindCSS, TypeScript, Redux, Zustand, React Query
+- **Backend:** Golang, Node.js, Express, NestJS, Prisma, PostgreSQL, MongoDB
+- **Tools:** Docker, Nginx, Git, Electron, React Native, Figma, Photoshop
+- **Web3:** Solidity, Foundry
 
 ---
 
