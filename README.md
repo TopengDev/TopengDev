@@ -1,38 +1,68 @@
-# 👋 Hi, I'm Christopher
+# 👋 Hi, I'm Christopher Indrawan
 
-**`Fullstack Developer | UI Designer | Builder`**
+**`Fullstack & Web3 Developer | UI Designer | Builder`**
 
-I'm a fullstack developer from Indonesia who loves building digital products that are both functional and beautiful. I enjoy working with React, Next.js, Node.js, and sometimes even Electron to bring ideas to life — whether it's for clients, communities, or personal growth.
+I'm a fullstack developer from Indonesia, passionate about building meaningful digital products that merge functionality, design, and innovation.  
+I specialize in crafting full-stack web and decentralized applications — from intuitive UI to scalable backend and blockchain integrations.
 
-I have a background in design, and that helps me focus on the user experience as much as the code quality. I believe in continuous learning, clean architecture, and building real things that matter.
+I love working with React, Next.js, NestJS, and Solidity, while designing experiences that feel fast, fluid, and human. My background in design helps me balance technical precision with visual clarity — because I believe **great code deserves great UX.**
+
+---
+
+### ⚡ Current Focus
+- Building **ExecFi**, a DeFi platform that bridges Web2 usability and Web3 autonomy → [https://execfi.xyz](https://execfi.xyz)
+- Exploring **account abstraction**, **smart wallets**, and **AI-driven finance tools**
+- Designing minimal yet expressive landing pages for tech and startup ecosystems
 
 ---
 
 ### 🛠️ Tech I Work With
-- **Frontend:** React, React Native, Electron, Flutter, Next.js, TailwindCSS, TypeScript, Redux, Zustand, React Query
-- **Backend:** Golang, Node.js, Express, NestJS, Prisma, PostgreSQL, MongoDB
-- **Tools:** Docker, Nginx, Git, Electron, React Native, Figma, Photoshop
-- **Web3:** Solidity, Foundry
+- **Frontend:** React, Next.js, TailwindCSS, TypeScript, Zustand, React Query, Radix UI, Shadcn UI  
+- **Backend:** Node.js, NestJS, Express, Golang, Prisma, PostgreSQL, MongoDB  
+- **Web3:** Solidity, Foundry, Privy, Biconomy, Ethers.js, Wagmi, Viem  
+- **Tools & Infra:** Docker, Nginx, GitHub Actions, Linux, Figma, Photoshop  
 
 ---
 
-### 📌 Featured Projects
-- **AI Resume Analyzer** - An AI-powered resume analyzer used to analyze resume compatibility with the targeted company - https://resumind.topengdev.com 
-- **KNNEK** – A crypto community platform with real-time chat - https://knnek.com/
-- **Digitalpartnership** – Indosat's official digital partnerships portal - https://ioh.co.id/portal/id/ioh-digitalpartnershipsportal
-- **Siakad** – Academic system for Bina Insan Nursing Academy  
-- **E-Commerce** – Fashion-forward shopping platform  
-- **Mafia Code** – Open developer community for SaaS exploration - https://mafiacode.vercel.app/
-- **IFINAPP** – Fundamental financial learning mobile app - https://play.google.com/store/apps/details?id=com.untartechno.ifinapp&hl=en&pli=1
+### 🚀 Featured Projects
+
+#### 🪙 [ExecFi](https://execfi.xyz)
+A next-gen **AI Powered DeFi and smart wallet platform** designed to bring Web3 usability to everyone.  
+
+#### 💻 [Tech Landing Page](https://techpage.topengdev.com)
+A minimal **personal tech showcase** highlighting my projects and developer portfolio.
+
+#### 🚀 [Startup Landing Page](https://startuppage.topengdev.com)
+A dynamic and clean **startup presentation template**, optimized for fast iteration and launch.
+
+#### 🤖 [AI Resume Analyzer](https://resumind.topengdev.com)
+An AI-powered resume analyzer that measures compatibility with job descriptions using NLP.
+
+#### 💬 [KNNEK](https://knnek.com/)
+A Web3-native community platform connecting crypto enthusiasts through real-time chat.
+
+#### 🌐 [DigitalPartnership](https://ioh.co.id/portal/id/ioh-digitalpartnershipsportal)
+Indosat Ooredoo Hutchison’s official digital partnership portal for enterprise integrations.
+
+#### 🎓 Siakad
+An academic information system for **Bina Insan Nursing Academy**, streamlining campus management.
+
+#### 🛍️ E-Commerce Platform
+A fashion-forward shopping experience built for **FashionsForHer (FFH)** — modern UI + solid backend.
+
+#### 👥 Mafia Code
+An open developer community for SaaS and product builders → [https://mafiacode.vercel.app](https://mafiacode.vercel.app)
+
+#### 📱 [IFINAPP](https://play.google.com/store/apps/details?id=com.untartechno.ifinapp&hl=en&pli=1)
+A mobile app that helps students learn fundamental finance and investment concepts interactively.
 
 ---
 
-### 📫 Let's Connect
+### 📫 Connect With Me
 - [LinkedIn](https://linkedin.com/in/christopher-indrawan-dev)
 - [GitHub](https://github.com/TopengDev)
-- 📩 topengdev@outlook.com
+- 📩 **topengdev@outlook.com**
 
 ---
 
-> “Don’t just write code. Solve a problem, polish the experience, and leave it better than you found it.”
-
+> “Don’t just write code — build systems, shape experiences, and leave the web better than you found it.”
