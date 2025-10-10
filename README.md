@@ -47,8 +47,8 @@ Indosat Ooredoo Hutchison’s official digital partnership portal for enterprise
 #### 🎓 Siakad
 An academic information system for **Bina Insan Nursing Academy**, streamlining campus management.
 
-#### 🛍️ E-Commerce Platform
-A fashion-forward shopping experience built for **FashionsForHer (FFH)** — modern UI + solid backend.
+#### 🛍️ [E-Commerce Platform](https://simple-e-commerce.topengdev.com)
+A simple multi-purpose ready e-commerce platform.
 
 #### 👥 Mafia Code
 An open developer community for SaaS and product builders → [https://mafiacode.vercel.app](https://mafiacode.vercel.app)
