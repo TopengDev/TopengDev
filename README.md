@@ -26,6 +26,9 @@ I love working with React, Next.js, NestJS, and Solidity, while designing experi
 
 ### 🚀 Featured Projects
 
+#### 🤖 [AI Resume Analyzer](https://hiremeup.topengdev.com)
+A complete more robust remake of my AI Powered Resume Analyzer `https://resumind.topengdev.com` with extra enchancements and optimizations.
+
 #### 🪙 [ExecFi](https://execfi.xyz)
 A next-gen **AI Powered DeFi and smart wallet platform** designed to bring Web3 usability to everyone.  
 
