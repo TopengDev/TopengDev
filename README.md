@@ -68,4 +68,4 @@ A mobile app that helps students learn fundamental finance and investment concep
 
 ---
 
-> “Don’t just write code — build systems, shape experiences, and leave the web better than you found it.”
+> “Don’t just write code — build systems, shape experiences, and innovate solutions.”
